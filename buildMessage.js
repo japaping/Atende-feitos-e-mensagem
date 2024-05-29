@@ -13,7 +13,7 @@
  *    }
  *  
 */
-export default function buildMessage(analisar,feitos){
+function buildMessage(analisar,feitos){
         let html = "";
         let contadorAnalisar = 0;
         const data = new Date();
@@ -50,7 +50,7 @@ export default function buildMessage(analisar,feitos){
                            
                 navigator.clipboard.writeText(copyText);
          
-                alert("Valor Copiado!!!");
+                alert(`Valor Copiado!!!`);
             }
            
            

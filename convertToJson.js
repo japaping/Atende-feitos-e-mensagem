@@ -1,4 +1,4 @@
-import buildMessage from "./buildMessage.js";
+
 const testForm = document.getElementById("testForm");
 const csvDataFile = document.getElementById("UploadFile");
 const csvDataFile2 = document.getElementsByName("feito")[0];
